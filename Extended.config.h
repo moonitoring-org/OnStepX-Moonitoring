@@ -34,5 +34,5 @@
 // Warning --->                           //              ***     OR TWO THEN SET THIS OPTION TO OFF AND UPLOAD AGAIN.        ***
                                           //              ***     LEAVING THIS OPTION ENABLED CAN CAUSE EXCESSIVE NV          ***
                                           //              ***     WEAR AND DAMAGE THE MICROCONTROLLER NV SUBSYSTEM !!!        ***
-
+#define SERIAL_IP_MODE WIFI_STATION 
 // ---------------------------------------------------------------------------------------------------------------------------------
