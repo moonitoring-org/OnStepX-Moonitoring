@@ -154,8 +154,16 @@ void setup() {
   sense.poll();
 
   telescope.ready = true;
+  
+  #ifdef MOONITORING_ENABLED
+  setupMoonitoring();
+  #endif
 }
 
 void loop() {
+    #ifdef MOONITORING_ENABLED
+    reportToFirebase();
+  #endif
+  
   tasks.yield();
 }
