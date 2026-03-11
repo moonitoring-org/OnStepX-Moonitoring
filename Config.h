@@ -49,6 +49,26 @@
 // NON-VOLATILE MEMORY ---------------------------------------- see https://onstep.groups.io/g/main/wiki/Configuration_Controller#NV
 #define NV_DRIVER              NV_DEFAULT // NV_DEF, Use platforms default non-volatile device to remember runtime settings.  Option
 
+
+// ============================================================================
+// MOONITORING.ORG CONFIGURATION
+// ============================================================================
+#define MOONITORING_ENABLED     ON    // Activar funcionalidad Moonitoring
+
+// Firebase Configuration (OBTÉN ESTOS DATOS DE TU CONSOLA FIREBASE)
+#define FIREBASE_PROJECT_ID     "moonitoring-org-network"
+#define FIREBASE_API_KEY        "AIzaSyAgf7TK3GvsDBmlEZ6hTeDnl60JACAWfS0"  
+
+// Intervalo de reporte (en segundos)
+#define REPORT_INTERVAL         300   // 5 minutos
+
+// WiFi Credentials (si no están ya definidos, agrégalos)
+#ifndef WIFI_SSID
+  #define WIFI_SSID     "TU_RED_WIFI"       // ← CÁMBIALO
+  #define WIFI_PASSWORD "TU_CONTRASEÑA"     // ← CÁMBIALO
+#endif
+
+
 // =================================================================================================================================
 // MOUNT ===========================================================================================================================
 
