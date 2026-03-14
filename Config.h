@@ -57,7 +57,7 @@
 
 // Firebase Configuration (OBTÉN ESTOS DATOS DE TU CONSOLA FIREBASE)
 #define FIREBASE_PROJECT_ID     "moonitoring-org-network"
-#define FIREBASE_API_KEY        "AIzaSyAgf7TK3GvsDBmlEZ6hTeDnl60JACAWfS0"  
+#define FIREBASE_API_KEY          
 
 // Intervalo de reporte (en segundos)
 #define REPORT_INTERVAL         300   // 5 minutos
